@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nammanella E-Paper</title>
+  <link rel="stylesheet" href="nela.css">
+</head>
+<body>
+
+<header>
+
+  <!-- Top Header -->
+  <div class="top-header">
+    <img src="./namma nela.jpeg" alt="Logo">
+  </div>
+
+  <!-- Bottom Header -->
+  <div class="bottom-header">
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <button onclick="goToFirst()">First</button>
+      <button onclick="goToPrev()">Previous</button>
+
+      <div id="pageNumbers"></div>
+
+      <button onclick="goToNext()">Next</button>
+      <button onclick="goToLast()">Last</button>
+    </div>
+
+    <!-- Tools -->
+    <div class="tools">
+      <button onclick="zoomIn()">Zoom +</button>
+      <button onclick="zoomOut()">Zoom -</button>
+      <button onclick="cropPage()">Crop</button>
+
+      <input type="date" id="archiveDate">
+      
+    </div>
+
+  </div>
+
+</header>
+
+<script src="nela.js"></script>
+</body>
+</html>

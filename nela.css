@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Top Header */
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.top-header img {
+  height: 100px;
+  margin-right: 10px;
+}
+
+/* Bottom Header */
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.page-btn {
+  padding: 5px 8px;
+  margin: 0 2px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: white;
+}
+
+.page-btn.active {
+  background-color: #111;
+  color: white;
+}
+
+/* Tools */
+.tools button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.tools input[type="date"] {
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
